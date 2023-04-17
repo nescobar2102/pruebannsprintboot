@@ -1,7 +1,6 @@
 # sprintbootnn
  
-Mi Proyecto Spring Boot con Gradle
-Este es un proyecto Spring Boot con Gradle que implementa una aplicación web para gestionar usuarios.
+Este es un proyecto Spring Boot con Gradle que implementa una aplicación web del crud de usuarios.
 
 Requisitos
 Docker 20.10 o superior
