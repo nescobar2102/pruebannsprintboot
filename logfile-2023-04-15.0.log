@@ -1,0 +1,77 @@
+2023-04-15 17:08:37.079  INFO 15640 --- [main] com.example.pruebann.CrudApplication     : Starting CrudApplication using Java 11.0.18 on NaguaPCLenovo with PID 15640 (C:\Users\norbe\Documents\NetBeansProjects\PruebaNN\crud\build\classes\java\main started by norbe in C:\Users\norbe\Documents\NetBeansProjects\PruebaNN\crud)
+2023-04-15 17:08:37.083  INFO 15640 --- [main] com.example.pruebann.CrudApplication     : No active profile set, falling back to default profiles: default
+2023-04-15 17:08:38.271  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-15 17:08:38.364  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2023-04-15 17:08:39.397  INFO 15640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-15 17:08:39.411  INFO 15640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-15 17:08:39.411  INFO 15640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-04-15 17:08:39.546  INFO 15640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-15 17:08:39.546  INFO 15640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2400 ms
+2023-04-15 17:08:39.612  INFO 15640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-15 17:08:39.759  INFO 15640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-15 17:08:39.768  INFO 15640 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:users'
+2023-04-15 17:08:39.965  INFO 15640 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-15 17:08:40.023  INFO 15640 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2023-04-15 17:08:40.170  INFO 15640 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-15 17:08:40.306  INFO 15640 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-15 17:08:41.011  INFO 15640 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-15 17:08:41.022  INFO 15640 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15 17:08:41.687  WARN 15640 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-15 17:08:42.022  INFO 15640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-15 17:08:42.234  INFO 15640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-15 17:08:42.575  INFO 15640 --- [main] com.example.pruebann.CrudApplication     : Started CrudApplication in 6.1 seconds (JVM running for 6.696)
+2023-04-15 17:08:52.482  INFO 15640 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-15 17:08:52.483  INFO 15640 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-15 17:08:52.486  INFO 15640 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-15 17:08:52.514  INFO 15640 --- [http-nio-8080-exec-2] c.e.pruebann.controllers.UserController  : GET getAllUser  log message. Logged at: Sat Apr 15 17:08:52 COT 2023
+2023-04-15 17:09:07.854  INFO 15640 --- [http-nio-8080-exec-3] c.e.pruebann.controllers.UserController  : POST saveUser log message. Logged at: Sat Apr 15 17:09:07 COT 2023
+2023-04-15 17:46:00.917  INFO 20296 --- [main] com.example.pruebann.CrudApplication     : Starting CrudApplication using Java 11.0.18 on NaguaPCLenovo with PID 20296 (C:\Users\norbe\Documents\NetBeansProjects\PruebaNN\crud\build\classes\java\main started by norbe in C:\Users\norbe\Documents\NetBeansProjects\PruebaNN\crud)
+2023-04-15 17:46:00.921  INFO 20296 --- [main] com.example.pruebann.CrudApplication     : No active profile set, falling back to default profiles: default
+2023-04-15 17:46:02.178  INFO 20296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-15 17:46:02.249  INFO 20296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2023-04-15 17:46:03.222  INFO 20296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-15 17:46:03.235  INFO 20296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-15 17:46:03.235  INFO 20296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-04-15 17:46:03.346  INFO 20296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-15 17:46:03.346  INFO 20296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2363 ms
+2023-04-15 17:46:03.402  INFO 20296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-15 17:46:03.532  INFO 20296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-15 17:46:03.539  INFO 20296 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:users'
+2023-04-15 17:46:03.763  INFO 20296 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-15 17:46:03.822  INFO 20296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2023-04-15 17:46:03.968  INFO 20296 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-15 17:46:04.094  INFO 20296 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-15 17:46:04.800  INFO 20296 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-15 17:46:04.813  INFO 20296 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15 17:46:05.457  WARN 20296 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-15 17:46:05.706  INFO 20296 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-15 17:46:05.902  INFO 20296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-15 17:46:06.209  INFO 20296 --- [main] com.example.pruebann.CrudApplication     : Started CrudApplication in 5.923 seconds (JVM running for 6.514)
+2023-04-15 17:46:18.329  INFO 20296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-15 17:46:18.330  INFO 20296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-15 17:46:18.332  INFO 20296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-15 20:42:40.042  INFO 13376 --- [main] com.example.pruebann.CrudApplication     : Starting CrudApplication using Java 11.0.18 on NaguaPCLenovo with PID 13376 (C:\Users\norbe\Documents\NetBeansProjects\PruebaNN\crud\build\classes\java\main started by norbe in C:\Users\norbe\Documents\NetBeansProjects\PruebaNN\crud)
+2023-04-15 20:42:40.046  INFO 13376 --- [main] com.example.pruebann.CrudApplication     : No active profile set, falling back to default profiles: default
+2023-04-15 20:42:41.780  INFO 13376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-15 20:42:41.883  INFO 13376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2023-04-15 20:42:42.772  INFO 13376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-15 20:42:42.788  INFO 13376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-15 20:42:42.789  INFO 13376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-04-15 20:42:42.897  INFO 13376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-15 20:42:42.897  INFO 13376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2761 ms
+2023-04-15 20:42:42.951  INFO 13376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-15 20:42:43.073  INFO 13376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-15 20:42:43.080  INFO 13376 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:users'
+2023-04-15 20:42:43.295  INFO 13376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-15 20:42:43.346  INFO 13376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2023-04-15 20:42:43.492  INFO 13376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-15 20:42:43.617  INFO 13376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-15 20:42:44.341  INFO 13376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-15 20:42:44.354  INFO 13376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15 20:42:45.306  WARN 13376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-15 20:42:45.609  INFO 13376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-15 20:42:45.801  INFO 13376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-15 20:42:46.121  INFO 13376 --- [main] com.example.pruebann.CrudApplication     : Started CrudApplication in 6.763 seconds (JVM running for 7.4)
+2023-04-15 20:47:00.095  INFO 13376 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-15 20:47:00.095  INFO 13376 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-15 20:47:00.097  INFO 13376 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
