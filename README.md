@@ -10,26 +10,20 @@ Gradle 7.0 o superior
 Configuración
 Clonar el repositorio:
   
-
+Abrir una terminal, introducir los comandos.
 git clone https://github.com/nescobar2102/pruebannsprintboot.git
  cd pruebannsprintboot/
 
 
-Crear una imagen Docker de la aplicación:
-
-docker build -t pruebann . 
-
+Crear una imagen Docker de la aplicación con el siguiente comando :
+ docker build -t pruebann:1.0 .
   
 Ejecutar el contenedor Docker de la aplicación:
- docker run -p 8080:8080 pruebann
+ docker run -p 8080:8080 pruebann:1.0
 
 Acceder a la aplicación en el navegador web:
-
 http://localhost:8080/
-
-Para acceder a la Base de datos 
-Base de datos memoria 
-http://localhost:8080/h2-console/
+ 
 
 Para acceder a la documentaciòn 
 http://localhost:8080/swagger-ui/#/
