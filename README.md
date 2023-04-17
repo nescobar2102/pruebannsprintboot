@@ -12,7 +12,8 @@ Clonar el repositorio:
   
 
 git clone https://github.com/nescobar2102/pruebannsprintboot.git
- 
+ cd pruebannsprintboot/
+
 
 Crear una imagen Docker de la aplicación:
 
