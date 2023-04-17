@@ -11,7 +11,7 @@ Configuración
 Clonar el repositorio:
   
 
-git clone https://github.com/nescobar2102/sprintbootnn.git
+git clone https://github.com/nescobar2102/pruebannsprintboot.git
  
 
 Crear una imagen Docker de la aplicación:
