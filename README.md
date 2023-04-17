@@ -23,6 +23,8 @@ Ejecutar el contenedor Docker de la aplicación:
 Acceder a la aplicación en el navegador web:
 http://localhost:8080/
  
+En la raiz del proyecto se anexa collection de la api
+SPRINTBOOT PRUEBA.postman_collection.json
 
 Para acceder a la documentaciòn 
 http://localhost:8080/swagger-ui/#/
